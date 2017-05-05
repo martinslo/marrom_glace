@@ -1,0 +1,181 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 60px; /* altura do seu footer */
+}
+
+/* Header */
+
+#horario_atendimento
+{
+    width: 100%;
+    height: 40px;
+    background-color: #444444;
+}
+
+#horario_atendimento h4
+{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 18px;
+}
+
+#logo img
+{
+    margin: 0;
+    width: 200px;
+    height: 200px;
+}
+
+/* Nav */
+
+nav
+{
+    width: 100%;
+    background-color: #F78877;
+    margin-bottom: 10px;
+}
+
+nav ul
+{
+    padding: 0;
+    padding: 10px;
+}
+
+nav ul li
+{
+    display: inline;
+    margin: 5px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: #FFFFFF;    
+}
+
+nav ul li a:hover
+{
+    color: #333333;
+}
+
+/* Section */
+
+section
+{
+    width: 75%;
+    float: left;
+}
+
+section iframe
+{
+    margin-top: 25px;
+    margin-left: 5%;
+}
+
+section form
+{
+    margin-left: 5%;
+}
+
+section form input, select
+{
+    width: 400px;
+    height: 30px;
+}
+
+section form textarea
+{
+    width: 400px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+section form input[type="submit"]
+{
+    width: 100px;
+    height: 30px;
+    background: #F78877;
+    border: 0;
+    color: #FFFFFF;
+}
+
+section form input[type="submit"]:hover
+{
+    color: #333333;
+    cursor: pointer;
+}
+
+section p
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section table, th, td 
+{
+    border: 1px solid #333333;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+
+}
+
+section pre
+{
+    font-size: 12px;
+}
+
+section .ambiente
+{
+    width: 610px;
+    margin-left: 230px;
+}
+
+section .ambiente_inteiro
+{
+    margin-left: 28px;
+}
+
+section .frente_loja
+{
+    margin-left: 230px;
+}
+
+/* Aside */
+
+aside
+{
+    width: 25%;
+    height: 100%;
+    float: right;
+    padding-right: 10px;
+}
+
+/* Footer */
+footer
+{
+    position: absolute; 
+    bottom: -60px; 
+    width: 100%;
+    height: 60px;
+    background: #444444;
+}
+footer p
+{
+    text-align: center;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 7px;
+}
